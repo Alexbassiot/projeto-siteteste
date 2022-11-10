@@ -1,0 +1,105 @@
+@charset "UTP-8";
+
+body {
+    height: 100vh;
+    background-image: url(../imagens/gradiente.jpeg.jpg);
+    background-color: rgb(227, 147, 159);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.777);
+    box-shadow: 2px 2px 3px black;
+
+    color: pink;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.621);
+
+}
+.container {
+      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.item p {
+    background-color: rgb(230, 12, 85);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.item { margin-bottom: 20px; cursor: pointer;}
+
+.item > p:hover {
+    color: black;
+
+}
+
+img {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+ img:hover {
+    transform: rotate(0.5deg);
+ }
+
+
+
+
+
+
+
+nav {
+    margin: 5px;
+    background-color: rgba(21, 8, 15, 0.856);
+    border-radius: 10px;
+}
+
+nav>a {
+    color: rgb(223, 124, 232);
+    text-decoration: none;
+    margin: 5px;
+    margin-right: 10px;
+    padding-left: 5px;
+
+}
+
+nav a:hover {
+    color: rgba(232, 238, 244, 0.938);
+}
+
+header>a {
+
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+header>h1 {
+    text-align: center;
+
+
+}
+
+header>p {
+    text-align: center;
+
+}
+
+footer {
+    background-position: bottom;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+
+
+}
